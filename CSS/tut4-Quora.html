@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>
+            Quora
+            <button id="logon" > Logon </button>
+            <button id="signup" > Sign up</button>
+        </h1>
+        <div>
+            <input type="text" placeholder="username">
+            <input type="text" placeholder="password">
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Folowing">Following</a></li>
+                    <li><a href="Answer">Answer</a></li>
+                    <li><a href="space">Space</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr/>
+    </header>
+    <main>
+        <p>
+            Adam &nbsp;
+            <a class="Follow" href="adam">Follow/adam</a>
+        </p>
+        <h3>What is the highest sallry fot a spacex engineer ?</h3>
+        <span>
+            <button class="upvote">+volume</button>
+            <button class="ans">answer</button>
+        </span>
+        <hr/>
+
+        <p>
+            Bob &nbsp;
+            <a class="Follow" href="bob">Follow/bob</a>
+        </p>
+        <h3>What is the suallabus for jee 2004 ?</h3>
+        <span>
+            <button class="upvote">+volume</button>
+            <button class="ans">answer</button>
+        </span>
+        <hr/>
+
+        <p>
+            Catlyn &nbsp;
+            <a class="Follow" href=" Catlyn">Follow/Catlyn</a>
+        </p>
+        <h3>what is the sky blue ?</h3>
+        <span>
+            <button class="upvote">+volume</button>
+            <button class="ans">answer</button>
+        </span>
+        <hr/>
+
+        <p>
+            Dan &nbsp;
+            <a class="Follow" href="dan">Follow/dan</a>
+        </p>
+        <h3>suggest some good sci-fi     blue ?</h3>
+        <span>
+            <button class="upvote">+volume</button>
+            <button class="ans">answer</button>
+        </span>
+        <hr/>
+    </main>
+</body>
+</html>
+
+
+*{
+    font-family :"courier new";
+}
+h3 {
+    color : purple;
+}
+h1 {
+    color:rgb(171, 0, 0);
+}
+#logon {
+    background-color: rgb(112, 184, 25);
+}
+#signup {
+    background-color: yellow
+}
+.upvote{
+    background-color:rgb(119, 229, 119);
+}
+.ans{
+    background-color:rgb(82, 82, 246);
+}
+.post a {
+    color:purple;
+    background-color:yellow;
+}
+
+nav a {
+    color:hotpink;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color:darkblue;
+}
+div > input {
+    background-color: darksalmon;
+}
+
+input [type="password"]{
+    background-color: ghostwhite;
+}
+#myid p {
+    color: green;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: pink;
+    color:black;
+}
+
+p:active {
+    font-weight: bold;
+    color: aqua;
+}
+
+input [type="radio"]:checked + label {
+    color: black;
+    font-weight: bold;
+}
+
+div:nth-of-type(2) {
+    background-color: red;
+}
